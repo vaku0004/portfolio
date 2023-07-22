@@ -8,7 +8,63 @@
     <link href="css/main.css" rel="stylesheet">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <ul class="skip-links"> <!--added skip links at the top of the page-->
+			<li><a href="#nav">Skip to main nav</a></li>
+			<li><a href="#main">Skip to main content</a></li>
+		</ul>
+    <nav class="px-3">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-md-auto col-4 logo bg-info" role="banner">
+            <svg width="120" height="100" viewBox="0 0 100 100" role="img" aria-label="Logo lamp">
+              <image xlink:href="images/lamplogo.svg" width="100%" height="100%" />
+            </svg>
+          </div>
+          <div class="col-md col-8"> <!-- Use col-6 to make the navigation take half the width on small screens -->
+            <ul class="nav justify-content-end gap-2"> <!-- Use gap-2 for mobile spacing -->
+              <li class="nav-item"><a href="index.html">HOME</a></li>
+              <li class="nav-item"><a href="about.html">ABOUT</a></li>
+              <li class="nav-item"><a href="works.html">PRODUCTS</a></li>
+              <li class="nav-item"><a href="contacts.html">PRODUCTS</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+       
+  <header>
+  <div class="banner">
+    <h1 class="position-absolute mb-5">
+      <span>FIND YOUR</span>
+      <span>IDEA</span>
+    </h1>
+    <img src="images/lamp_deks.png" class="position-relative banner-img">
+    <picture>
+      <source media="(max-width: 599px)" srcset="images/small-banner.jpg">
+      <source media="(min-width: 700px)" srcset="images/lamp_deks">
+      <img src="images/lamp_deks.png" class="banner-img">
+    </picture>
+  </div>
+</header>
+  <div class="graybox">
+    <div class="container d-flex flex-column justify-content-center align-items-center">
+      <h2 class="display-4 fw-bold">Services</h2>
+      <p class="text-center">Find the ideal solution for your project with us! We specialize in providing a wide range of
+      services in graphic and web design, photography, and video editing. Explore our website to
+      learn more about our services and browse through our portfolio of work. We are eager to
+      come up with a fresh and creative idea specifically for you.</p>
+      <button type="submit" onclick="location.href='about.html'" role="button">Learn more</button>
+    </div>
+
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
 </html>
+
+
+<div>
+  <h2>
+  </h2>
+  <p></p>
+  <button></button>
+</div>
