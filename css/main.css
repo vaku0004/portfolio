@@ -1,11 +1,16 @@
 
 :root {
-	--main-color: #D3D0CF;
-	--beige-color: #E8E6E6;
-	--brown-color: #947150;
-	--black-color: #000000;
-	--grey-color: #4B4B4B;
+    --main-color: #F1F1F1;
+	--orange-color: #FBB03B;
+	--yellow-color: #F3DE54;
+	--dark-color: #3C3A47;
+	--black-color: #333333;
 	--white-color: #ffffff;
+}
+
+footer {
+    background-color: #242323;
+    color: var(--orange-color);
 }
 
 /*skip links are hidden*/
@@ -22,7 +27,96 @@
 	font-weight: bold;
 }
 
+.mouse {
+    transition: transform 1s ease;
+}
+
+.mouse:hover{
+    transform: translateY(80px);
+}
 /*this code makes the skip link visible and active when the tab button is pressed*/
 .skip-links a:focus {
 	top: 0;
+}
+
+.works img {
+    width: 25vw;
+    height: auto;
+}
+
+.container-lg {
+    padding-left: -3rem;
+    padding-right: -3rem;
+}
+
+.my-path {
+    fill: #292f63;
+  }
+/*
+  .container-lg {
+    position: relative; 
+}
+
+.owave-container {
+    position: absolute; 
+    bottom: 0; 
+    right: 0; 
+    z-index: -1; 
+    margin-bottom: 20px; 
+}
+*/
+.owave {
+    max-width: 80%; 
+    height: auto;
+}
+
+
+.orange {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*?*/
+.orange {
+    position: absolute; 
+    right: 0; 
+    width: 50%; 
+    bottom: 0%;
+  }
+
+  footer {
+    position: relative; 
+  }
+/*?*/
+
+
+
+  button,
+  .button-link {
+      border-radius: 1.5rem;
+      width: 8rem;
+      height: 2.5rem;
+      border: 1.5px solid var(--grey-color);
+      color: var(--white-color);
+      background-color: var(--orange-color);
+  }
+  
+  button:hover {
+      background-color: var(--yellow-color);
+      color: var(--dark-color);
+  }
+
+@media (max-width: 997px) {
+    .works img {
+        width: 85vw;
+        height: auto;
+    }
+
+    .owave {
+        max-width: 100%; 
+        height: auto;
+        bottom: 0; 
+        right: 0; 
+    }
+ 
 }
