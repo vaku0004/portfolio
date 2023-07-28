@@ -1,6 +1,6 @@
 
 :root {
-    --main-color: #F1F1F1;
+    --main-color: #f1f1f1;
 	--orange-color: #FBB03B;
 	--yellow-color: #F3DE54;
 	--dark-color: #3C3A47;
@@ -52,44 +52,26 @@ footer {
 .my-path {
     fill: #292f63;
   }
-/*
-  .container-lg {
-    position: relative; 
+
+
+body.aboutpage {
+
+background-image: url('../images/owave.png'); 
+background-position: bottom 50px right;
+background-repeat: no-repeat;
+background-size: 50% 50%;
+background-color: var(--main-color);
+
 }
 
-.owave-container {
-    position: absolute; 
-    bottom: 0; 
-    right: 0; 
-    z-index: -1; 
-    margin-bottom: 20px; 
-}
-*/
-.owave {
-    max-width: 80%; 
-    height: auto;
+.about {
+    padding-left: 8rem;
+    padding-bottom: 5rem;
 }
 
-
-.orange {
-  display: flex;
-  justify-content: flex-end;
+.hidden-btn {
+    color: aqua;
 }
-
-/*?*/
-.orange {
-    position: absolute; 
-    right: 0; 
-    width: 50%; 
-    bottom: 0%;
-  }
-
-  footer {
-    position: relative; 
-  }
-/*?*/
-
-
 
   button,
   .button-link {
@@ -106,17 +88,31 @@ footer {
       color: var(--dark-color);
   }
 
-@media (max-width: 997px) {
-    .works img {
-        width: 85vw;
-        height: auto;
-    }
+  .secretb {
+    display: none;
+  }
 
-    .owave {
-        max-width: 100%; 
-        height: auto;
-        bottom: 0; 
-        right: 0; 
-    }
- 
+@media (max-width: 997px) {
+
+    body.aboutpage {
+
+    background-image: url('../images/m-owave.png');
+    background-position: bottom left;
+    background-size: 100% 20%;
+    background-color: var(--main-color);
+   }
+
+   .about-p button {
+    display: none;
+   }
+
+   .secretb {
+    display:block;
+    margin-bottom: 20%;
+    margin-right: 15%;
+  }
+
+
+   
+
 }
