@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link href="css/main.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="contactpage">
     <ul class="skip-links"> <!--added skip links at the top of the page-->
 			<li><a href="#nav">Skip to main nav</a></li>
 			<li><a href="#main">Skip to main content</a></li>
@@ -39,25 +39,24 @@
         </div>
       </div>
     </nav>
-    <div class="container-fluid mb-3 bg-warning pb-5 ps-5">
-      <dib class="row ps-5">
+    <div class="container-fluid mb-3 pb-5 ps-5">
+      <dib class="row">
         <div class="col-lg-6 p-5">
-          <h2>CONTACT ME</h2> 
+          <h2 class="contact">CONTACT ME</h2> 
     <form>
-      <div class="mb-3">
-        <label for="inputName" class="form-label">Your Name</label>
-        <input type="text" class="form-control" id="inputName" required>
-        <div id="emailHelp" class="form-text">or nickname</div>
+      <div>
+        <label for="inputName" class="form-label ">Your Name</label>
+        <input type="text" class="form-control bg-body-secondary" id="inputName" required>
       </div>
       <div class="mb-3">
         <label for="inputEmail" class="form-label">Your Email</label>
-  <input type="email" class="form-control" id="inputEmail" required>
+  <input type="email" class="form-control bg-body-secondary" id="inputEmail" required>
       </div>
       <div class="mb-3">
         <label for="inputDescription" class="form-label">Description</label>
-        <textarea class="form-control" id="inputDescription" rows="8" required></textarea>
+        <textarea class="form-control bg-body-secondary rounded" id="inputDescription" rows="8" required></textarea>
       </div>
-      <div class="d-flex justify-content-end"> <!-- add div with classes d-flex, justify-content-end -->
+      <div class="d-flex justify-content-end pt-3"> <!-- add div with classes d-flex, justify-content-end -->
         <button type="submit" onclick="location.href='about.html'" role="button">LEARN MORE</button>
       </div>
     </form>     

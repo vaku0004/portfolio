@@ -69,8 +69,26 @@ background-color: var(--main-color);
     padding-bottom: 5rem;
 }
 
-.hidden-btn {
-    color: aqua;
+body.aboutpage {
+
+    background-image: url('../images/owave.png'); 
+    background-position: bottom 50px right;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-color: var(--main-color);
+    }
+
+body.contactpage {
+    background-image: url('../images/pwave.png'); 
+    background-position: bottom 50px left;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+}
+
+form,
+.contact {
+    padding-left: 4rem;
+    padding-bottom: 1rem;
 }
 
   button,
@@ -102,6 +120,14 @@ background-color: var(--main-color);
     background-color: var(--main-color);
    }
 
+   
+   body.contactpage {
+
+    background-image: url('../images/m-pwave.png');
+    background-position: bottom left;
+    background-size: 100% 20%;
+   }
+
    .about-p button {
     display: none;
    }
@@ -112,7 +138,11 @@ background-color: var(--main-color);
     margin-right: 15%;
   }
 
-
+  form,
+  .contact {
+      padding-left: 0rem;
+      padding-bottom: 1rem;
+  }
    
 
 }
