@@ -98,6 +98,14 @@ form,
     padding-bottom: 1rem;
 }
 
+.my-path1:hover {
+    fill: #34669f;
+  }
+
+  .my-path:hover {
+    fill: #8aa5c4;
+  }
+
   button,
   .button-link {
       border-radius: 1.5rem;
