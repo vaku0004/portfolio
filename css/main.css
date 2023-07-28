@@ -125,6 +125,26 @@ form,
     display: none;
   }
 
+  .navbar-toggler .navbar-toggler-icon {
+    border: none;
+    outline: none;
+    box-shadow: none
+  }
+
+  .navbar-toggler:hover, 
+  .navbar-toggler-icon:hover  {
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+
+  .navbar-toggler:focus { /*эти коды удаляют обводку вокргу гамбургер меню*/
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+
+
 @media (max-width: 997px) {
 
     body.aboutpage {
@@ -158,6 +178,10 @@ form,
   .contact {
       padding-left: 0rem;
       padding-bottom: 1rem;
+  }
+
+  .nav-item {
+    text-align: center;
   }
    
 
