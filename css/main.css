@@ -98,11 +98,11 @@ form,
     padding-bottom: 1rem;
 }
 
-.my-path1:hover {
+.my-path:hover {
     fill: #34669f;
   }
 
-  .my-path:hover {
+  .my-path {
     fill: #8aa5c4;
   }
 
