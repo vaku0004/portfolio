@@ -85,6 +85,13 @@ body.contactpage {
     background-size: 50% 50%;
 }
 
+body.workspage {
+    background-image: url('../images/twowaves.png');
+    background-position: bottom left;
+    background-size: 100% 25%;
+    background-repeat: no-repeat;
+   }
+
 form,
 .contact {
     padding-left: 4rem;
@@ -127,6 +134,7 @@ form,
     background-position: bottom left;
     background-size: 100% 20%;
    }
+
 
    .about-p button {
     display: none;
