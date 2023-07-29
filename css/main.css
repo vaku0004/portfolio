@@ -53,6 +53,10 @@ footer {
     fill: #292f63;
   }
 
+h1 {
+    display: none;
+}
+
 
 body.aboutpage {
 
