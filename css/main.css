@@ -187,6 +187,11 @@ form,
   .nav-item {
     text-align: center;
   }
+
+  .works img {
+    width: 100%;
+    height: auto;
+  }
    
 
 }
