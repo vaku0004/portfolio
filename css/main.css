@@ -57,6 +57,9 @@ h1 {
     display: none;
 }
 
+.img-border {
+  border:2px solid grey;
+}
 
 body.aboutpage {
 
@@ -197,6 +200,11 @@ form,
   body.workspage {
     background-size: 100% 250px;
    }
+
+   .img-border {
+    width: 80%;
+    height: auto;
+  }
 
    
 
