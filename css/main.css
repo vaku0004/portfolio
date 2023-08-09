@@ -151,6 +151,25 @@ form,
     box-shadow: none;
   }
 
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .about-img {
+    min-width: 350px;
+    width: 70%;
+    height: auto;
+    padding-bottom: 1rem;
+  }
+
+  .about-p{
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+  }
 
 @media (max-width: 997px) {
 
@@ -206,6 +225,27 @@ form,
     height: auto;
   }
 
+.about-p {
+  padding: 4rem;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.about-img {
+  width: 75%;
+  height: auto;
+  padding-bottom: 3rem;
+}
+
+.about {
+  padding-left: 0;
+  padding-bottom: 0;
+}
    
 
 }
