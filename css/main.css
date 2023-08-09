@@ -25,6 +25,13 @@ footer {
   color: var(--orange-color)
 }
 
+.mouse-body {
+  fill: #292f63;
+}
+
+.mouse-body:hover {
+  fill: #3b4289;
+}
 
 /*skip links are hidden*/
 .skip-links {
@@ -105,6 +112,7 @@ body.workspage {
     background-color: var(--main-color);
    }
 
+
 form,
 .contact {
     padding-left: 4rem;
@@ -143,6 +151,13 @@ form,
   }
 
   .navbar-toggler .navbar-toggler-icon {
+    border: none;
+    outline: none;
+    box-shadow: none
+  }
+
+  
+  .navbar-toggler {
     border: none;
     outline: none;
     box-shadow: none
@@ -206,7 +221,7 @@ form,
 
    .secretb {
     display:block;
-    margin-bottom: 20%;
+    margin-bottom: 35%;
     margin-right: 15%;
   }
 
@@ -249,7 +264,7 @@ form,
 .about-img {
   width: 75%;
   height: auto;
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
 }
 
 .about {
