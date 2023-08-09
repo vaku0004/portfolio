@@ -1,17 +1,30 @@
 
 :root {
-    --main-color: #f1f1f1;
-	--orange-color: #FBB03B;
+    --main-color: #EFEFF1;
+	--orange-color: #f6ab33;
 	--yellow-color: #F3DE54;
 	--dark-color: #3C3A47;
 	--black-color: #333333;
 	--white-color: #ffffff;
 }
 
+body {
+  color: var(--dark-color);
+}
+
 footer {
-    background-color: #242323;
+    background-color: var(--dark-color);
     color: var(--orange-color);
 }
+
+.graybox {
+  background-color: var(--main-color);
+}
+
+.nav-link:hover {
+  color: var(--orange-color)
+}
+
 
 /*skip links are hidden*/
 .skip-links {
@@ -61,15 +74,7 @@ h1 {
   border:2px solid grey;
 }
 
-body.aboutpage {
 
-background-image: url('../images/owave.png'); 
-background-position: bottom 50px right;
-background-repeat: no-repeat;
-background-size: 50% 50%;
-background-color: var(--main-color);
-
-}
 
 .about {
     padding-left: 8rem;
@@ -97,12 +102,17 @@ body.workspage {
     background-position: bottom left;
     background-size: 100% 25%;
     background-repeat: no-repeat;
+    background-color: var(--main-color);
    }
 
 form,
 .contact {
     padding-left: 4rem;
     padding-bottom: 1rem;
+}
+
+.form-control {
+  background-color: var(--main-color);
 }
 
 .my-path:hover {
