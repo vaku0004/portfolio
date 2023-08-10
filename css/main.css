@@ -196,6 +196,16 @@ form,
 
   }
 
+  .img-border {
+    width: 70%;
+    height: 70%;
+  }
+
+
+  .logoimg {
+    width: 55px;
+    height: auto;
+  }
 
 @media (max-width: 997px) {
 
