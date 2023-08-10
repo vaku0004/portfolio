@@ -286,7 +286,7 @@ form,
 
 
 }
-
+/*for banner-mobile img*/
 @media (max-width: 500px) {
  body {
   background-color: #34669f;
@@ -302,7 +302,7 @@ form,
   width: 100%;
  }
 }
-
+/*for banner-tablet2 img*/
 @media (min-width: 501px) and (max-width: 701px){
   body {
    background-color: #43a984;
@@ -315,7 +315,7 @@ form,
   }
  }
 
-
+/*for banner-tablet2 img*/
  @media (min-width: 701px) and (max-width: 901px){
   body {
    background-color: #8ff349;
@@ -327,7 +327,7 @@ form,
     display: none;
   }
  }
-
+/*for banner-tablet img*/
  @media (min-width: 901px) and (max-width: 1301px){
   body {
    background-color: #d4adea;
@@ -339,7 +339,7 @@ form,
     display: none;
   }
  }
-
+/*for banner-dekstop img*/
  @media (min-width: 1301px){
   body {
    background-color: white;
