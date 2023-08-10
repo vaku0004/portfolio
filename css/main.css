@@ -282,7 +282,7 @@ form,
   background-color: #34669f;
  }
 
- .banner-tablet1,
+ .banner-tablet,
  .banner-dekstop,
  .banner-tablet2 {
    display: none;
@@ -300,7 +300,7 @@ form,
 
   .banner-mobile,
   .banner-dekstop,
-  .banner-tablet1 {
+  .banner-tablet {
     display: none;
   }
  }
@@ -313,14 +313,14 @@ form,
 
   .banner-mobile,
   .banner-dekstop,
-  .banner-tablet1 {
+  .banner-tablet {
     display: none;
   }
  }
 
  @media (min-width: 901px) and (max-width: 1301px){
   body {
-   background-color: #c1e375;
+   background-color: #d4adea;
   }
 
   .banner-mobile,
@@ -332,10 +332,10 @@ form,
 
  @media (min-width: 1301px){
   body {
-   background-color: #e4f3c3;
+   background-color: white;
   }
 
-  .banner-tablet1,
+  .banner-tablet,
   .banner-tablet2,
   .banner-mobile {
     display: none;
