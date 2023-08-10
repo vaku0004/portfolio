@@ -199,6 +199,7 @@ form,
 
 @media (max-width: 997px) {
 
+
     body.aboutpage {
 
     background-image: url('../images/m-owave.png');
@@ -275,3 +276,68 @@ form,
 
 
 }
+
+@media (max-width: 500px) {
+ body {
+  background-color: #34669f;
+ }
+
+ .banner-tablet1,
+ .banner-dekstop,
+ .banner-tablet2 {
+   display: none;
+ }
+
+ .banner-mobile {
+  width: 100%;
+ }
+}
+
+@media (min-width: 501px) and (max-width: 701px){
+  body {
+   background-color: #43a984;
+  }
+
+  .banner-mobile,
+  .banner-dekstop,
+  .banner-tablet1 {
+    display: none;
+  }
+ }
+
+
+ @media (min-width: 701px) and (max-width: 901px){
+  body {
+   background-color: #8ff349;
+  }
+
+  .banner-mobile,
+  .banner-dekstop,
+  .banner-tablet1 {
+    display: none;
+  }
+ }
+
+ @media (min-width: 901px) and (max-width: 1301px){
+  body {
+   background-color: #c1e375;
+  }
+
+  .banner-mobile,
+  .banner-dekstop,
+  .banner-tablet2 {
+    display: none;
+  }
+ }
+
+ @media (min-width: 1301px){
+  body {
+   background-color: #e4f3c3;
+  }
+
+  .banner-tablet1,
+  .banner-tablet2,
+  .banner-mobile {
+    display: none;
+  }
+ }
