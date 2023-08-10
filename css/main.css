@@ -170,7 +170,7 @@ form,
     box-shadow: none;
   }
 
-  .navbar-toggler:focus { /*эти коды удаляют обводку вокргу гамбургер меню*/
+  .navbar-toggler:focus { /*these codes remove the outline around the hamburger menu*/
     border: none;
     outline: none;
     box-shadow: none;
