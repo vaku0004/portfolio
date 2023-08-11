@@ -18,6 +18,8 @@ Furthermore, during the website development process, I used the library [Animate
 
 To create the banner image, I based it on several prototype icons featuring lightbulbs from the website [Envato Elements](https://elements.envato.com/ru/18-lamp-and-light-icons-DYNGX3). I have a license for these materials, so in this case, I did not infringe on copyright.
 
+I hand-drew the images for the Services section while referencing examples online and exported them into SVG files.
+
 ## Conclusion
 
 In conclusion, I learned to use the Bootstrap library while creating the site. It made many processes easier and faster, particularly when it came to handling different screen sizes, which had always posed difficulties for me. Overall, I consider developing my own website to be an incredibly interesting task that allows for better self-understanding and a clearer sense of priorities in web design.
