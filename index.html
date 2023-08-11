@@ -14,7 +14,7 @@
 			<li><a href="#nav">Skip to main nav</a></li>
 			<li><a href="#main">Skip to main content</a></li>
 		</ul>
-		<nav class="navbar navbar-expand-md px-3">
+		<nav class="navbar navbar-expand-md px-3" role="navigation">
 			<div class="container-fluid">
 				<!-- Brand/logo -->
 				<a class="navbar-brand" href="#">
@@ -37,21 +37,27 @@
 			</div>
 		</nav>
 		<header>
-			<div class="banner">
+			<div class="banner" role="main">
 				<h1 class="position-absolute mb-5">
 					<span>FIND YOUR</span>
 					<span>IDEA</span>
 				</h1>
-				<svg viewBox="0 0 3900 2300" role="img" aria-label="Logo lamp" class="banner-dekstop">
+				<svg viewBox="0 0 3900 2300" role="img" aria-label="banner img" class="banner-dekstop">
 					<image xlink:href="images/banner-dekstop1.svg" width="100%" height="100%"/>
 				</svg>
-				<svg viewBox="0 0 2800 2400" role="img" aria-label="Logo lamp" class="banner-tablet">
+        <div class="banner-tablet-container">
+				<svg viewBox="0 0 2800 2400" role="img" aria-label="banner img" class="banner-tablet">
 					<image xlink:href="images/banner-tablet.svg" width="100%" height="100%"/>
 				</svg>
-				<svg viewBox="0 0 2900 3000" role="img" aria-label="Logo lamp" class="banner-tablet2">
+        <!--
+        <svg viewBox="0 0 2800 2400" role="img" aria-label="Logo lamp" class="banner-tablet-n">
+					<image xlink:href="images/banner-tablet-n.svg" width="100%" height="100%"/>
+				</svg></div>
+      -->
+				<svg viewBox="0 0 2900 3000" role="img" aria-label="banner img" class="banner-tablet2">
 					<image xlink:href="images/banner-tablet2.svg" width="100%" height="100%"/>
 				</svg>
-				<svg viewBox="0 0 2400 3400" role="img" aria-label="Logo lamp" class="banner-mobile">
+				<svg viewBox="0 0 2400 3400" role="img" aria-label="banner img" class="banner-mobile">
 					<image xlink:href="images/banner-mobile.svg" width="100%" height="100%"/>
 				</svg>
 			</div>
