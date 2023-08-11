@@ -14,7 +14,7 @@
 			<li><a href="#nav">Skip to main nav</a></li>
 			<li><a href="#main">Skip to main content</a></li>
 		</ul>
-		<nav class="navbar navbar-expand-md px-3 bg-white" role="navigation">
+		<nav class="navbar navbar-expand-md px-3 bg-white" role="navigation"><!--nav bar is taken from bootstrap-->
 			<div class="container-fluid">
 				<!-- Brand/logo -->
 				<a class="navbar-brand" href="#">
@@ -27,7 +27,7 @@
 				<!-- Navbar links -->
 				<div class="collapse navbar-collapse" id="navbarCollapse">
 					<ul class="navbar-nav d-flex ms-auto justify-content-center">
-						<!-- Added justify-content-center class to center the menu -->
+						<!-- Added justify-content-center class to center the menu-->
 						<li class="nav-item fw-semibold fs-5"><a class="nav-link" href="index.html">HOME</a></li>
 						<li class="nav-item fw-semibold fs-5"><a class="nav-link" href="about.html">ABOUT</a></li>
 						<li class="nav-item fw-semibold fs-5"><a class="nav-link" href="works.html">WORKS</a></li>
@@ -39,23 +39,23 @@
 		<div>
 			<div class="container-fluid pt-5 about-container greybox">
 				<div class="row">
-					<div class="col-lg-6 m-1 about order-2 order-lg-1">
+					<div class="col-lg-6 m-1 about order-2 order-lg-1"> <!--order-lg-1 this code allowed me to change the elements in order on the big screen-->
 						<img class="animate__animated animate__bounceInLeft about-img" src="images/about-img.JPG" alt="image about me">
 					</div>
 					<div class="col-lg-5 about-p order-1 order-lg-2">
 						<h3 class="animate__animated animate__zoomInDown pb-3 fw-semibold">ABOUT ME</h3>
-						<p class="animate__animated animate__bounceInRight fs-5">
+						<p class="animate__animated animate__bounceInRight fs-5"> <!--I used the codes from the animated website to animate-->
 							My name is Victoria, and I have a passion for animation, illustration, web design, and motion graphics. I aim to bring all these disciplines together to create truly unique and creative projects. That's why I am
 							currently studying Interactive Design at Algonquin College. I hope that my work will inspire you with fresh and creative ideas.
 						</p>
-						<div class="d-flex justify-content-end">
+						<div class="d-flex justify-content-end"> <!--I aligned the button to the edge of the element-->
 							<div class="ml-3">
 								<button class="animate__animated animate__bounceInRight" type="submit" onclick="location.href='contacts.html'" role="button">CONTACT ME!</button>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="d-flex justify-content-end">
+				<div class="d-flex justify-content-end"> <!--a secret button that duplicates the main one and appears only on the specified screen sizes-->
 					<button class="secretb" type="submit" onclick="location.href='contacts.html'" role="button">LEARN MORE</button>
 				</div>
 			</div>
