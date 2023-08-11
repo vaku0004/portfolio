@@ -250,7 +250,6 @@ button:hover {
 /*for banner-mobile img*/
 @media (max-width: 500px) {
 
-
   .banner-tablet, .banner-dekstop, .banner-tablet2 {
       display: none;
  }
@@ -266,6 +265,7 @@ button:hover {
       display: none;
  }
 }
+
 /*for banner-tablet2 img*/
 @media (min-width: 701px) and (max-width: 901px){
 
