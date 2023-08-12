@@ -126,6 +126,13 @@ form, .contact {
   fill: #8aa5c4;
 }
 
+.mouse:active {
+  transform: skewY(350deg);
+  transform: skewX(30deg);
+  transition: width 0.4s ease; 
+  cursor: pointer; 
+}
+
 button, .button-link {
   border-radius: 1.5rem;
   width: 8rem;
@@ -188,6 +195,15 @@ button:hover {
   width: 55px;
   height: auto;
 }
+
+.img-border {
+  transition: transform 0.4s ease-in-out;
+}
+
+.img-border:hover {
+  transform: scale(1.1); 
+}
+
 /*I made different media quires settings as I have different pictures with light bulbs for each screen*/
 @media (max-width: 997px) {
 
