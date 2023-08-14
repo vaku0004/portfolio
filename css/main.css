@@ -106,7 +106,7 @@ body.workspage {
   background-position: bottom left;
   background-size: 100% 25%;
   background-repeat: no-repeat;
-  background-color: var(--main-color);
+  background-color: var(--white-color);
 }
 
 form, .contact {
@@ -210,6 +210,10 @@ footer a {
 
 footer a:hover {
   color: var(--yellow-color);
+}
+
+.graybox {
+  background-color: var(--main-color);
 }
 
 /*I made different media quires settings as I have different pictures with light bulbs for each screen*/
